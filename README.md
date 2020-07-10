@@ -1,5 +1,3 @@
-# JslowikDotCom
-Welcome
-
-- [About](/about/)
-- [Resume](/resume/)
+# Welcome!
+#### Welcome to my site.
+Apologies for the complete lack of content. I swear I'm working on it at roughly the same speed I work on all my other side projects...
