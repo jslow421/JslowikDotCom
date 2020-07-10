@@ -1,3 +1,8 @@
-# Posts
+---
+title: Example blog
+description: This is my example blog
+---
 
-Coming soon!
+# Blog
+
+<BlogIndex category="current" limit="20" />
