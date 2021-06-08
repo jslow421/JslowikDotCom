@@ -8,11 +8,11 @@ phases:
       - echo installing Vuepress
       - npm install -g vuepress --unsafe-perm
       - vuepress --version
-      - npm install -D @vuepress/theme-blog --unsafe-perm
-      - npm install -D @vuepress/plugin-blog --unsafe-perm
   build:
     commands:
       - echo Build started on `date`
+      - npm install -D @vuepress/theme-blog --unsafe-perm
+      - npm install -D @vuepress/plugin-blog --unsafe-perm
       - vuepress build
   post_build:
     commands:
