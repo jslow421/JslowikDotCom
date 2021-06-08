@@ -6,7 +6,6 @@ phases:
       - node --version
       - npm --version
       - echo installing Vuepress
-      - npm install -g @vuepress/cli --unsafe-perm
       - npm install -g vuepress --unsafe-perm
       - vuepress --version
       - npm install -D @vuepress/theme-blog --unsafe-perm
