@@ -11,8 +11,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - npm install -D @vuepress/theme-blog --unsafe-perm
-      - npm install -D @vuepress/plugin-blog --unsafe-perm
+      - npm install
       - vuepress build
   post_build:
     commands:
