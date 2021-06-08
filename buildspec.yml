@@ -3,16 +3,14 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo Node version
       - node --version
-      - echo NPM version
       - npm --version
       - echo installing Vuepress
-      - npm install -g @vuepress/cli
-      - npm install -g vuepress
+      - npm install -g @vuepress/cli --unsafe-perm
+      - npm install -g vuepress --unsafe-perm
       - vuepress --version
-      - npm install -D @vuepress/theme-blog
-      - npm install -D @vuepress/plugin-blog
+      - npm install -D @vuepress/theme-blog --unsafe-perm
+      - npm install -D @vuepress/plugin-blog --unsafe-perm
   build:
     commands:
       - echo Build started on `date`
