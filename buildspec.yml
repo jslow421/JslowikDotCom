@@ -5,6 +5,8 @@ phases:
     commands:
       - echo installing Vuepress
       - npm install -g vuepress
+      - npm install -D @vuepress/theme-blog
+      - npm install -D @vuepress/plugin-blog
   build:
     commands:
       - echo Build started on `date`
