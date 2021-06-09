@@ -5,14 +5,26 @@ phases:
     commands:
       - node --version
       - npm --version
+  build:
+    commands:
+      - ls
+      - echo Build started on `date`
       - echo installing Vuepress
       - npm install -g vuepress --unsafe-perm
       - vuepress --version
-  build:
-    commands:
-      - echo Build started on `date`
-      - npm install
-      - vuepress build
+      - npm install @vuepress/core
+      - npm install -D @vuepress/theme-blog --unsafe-perm
+      - npm install -D @vuepress/plugin-blog --unsafe-perm
+      - vuepress build -d dist
+      - ls
   post_build:
     commands:
+      - aws cloudfront create-invalidation --distribution-id EY95NWP6MYHW0 --paths '/*'
       - echo Build completed on `date`
+artifacts:
+  files:
+    - 'dist/*'
+    - 'dist/assets/img/*'
+    - 'dist/assets/css/*'
+    - 'dist/assets/js/*'
+    - 'dist/_posts/*'
