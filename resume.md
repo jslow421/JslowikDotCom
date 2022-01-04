@@ -12,6 +12,6 @@ ___
 Waterstone Mortgage Corporation - Web Applications Developer
 ___
 
-##Education
+## Education
 Waukesha County Technical College - AAS Web and Software Development
  - Graduated August 2016
