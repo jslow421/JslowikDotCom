@@ -27,7 +27,7 @@ module.exports = {
       ],
       copyright: [
         {
-          text: "John Slowik © 2021",
+          text: "John Slowik © 2022",
           link: ""
         }
       ]
@@ -38,7 +38,7 @@ module.exports = {
       directories: [{
         id: 'posts',
         dirname: '_posts',
-        itemPermalink: '/posts/:year/:month/:day/:slug',
+        itemPermalink: '/posts/:year/:month/:day/:slug/',
         pagination: {
           lengthPerPage: 5,
         },
