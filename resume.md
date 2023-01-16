@@ -1,6 +1,10 @@
 # John Slowik's Resume
 ## Employment History
-#### Nov. 2021 - Current
+#### September 2022 - Present
+Caylent - Cloud Senior Software Engineer
+___
+
+#### Nov. 2021 - September 2022
 Navitus Health Solutions - Software Developer II
 ___
 
