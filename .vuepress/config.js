@@ -17,8 +17,8 @@ module.exports = {
           link: "https://github.com/jslow421"
         },
         {
-          type: "twitter",
-          link: "https://twitter.com/jslow421"
+          type: "linkedin",
+          link: "https://linkedin.com/in/jslowik"
         },
         {
           type: "mail",

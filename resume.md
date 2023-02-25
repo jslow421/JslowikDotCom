@@ -4,15 +4,15 @@
 Caylent - Cloud Senior Software Engineer
 ___
 
-#### Nov. 2021 - September 2022
+#### November 2021 - September 2022
 Navitus Health Solutions - Software Developer II
 ___
 
-#### Jan. 2019 - Nov. 2021
+#### January 2019 - November 2021
 Socialeads - Software Engineer
 ___
 
-#### Nov. 2016 - Jan 2019
+#### November 2016 - January 2019
 Waterstone Mortgage Corporation - Web Applications Developer
 ___
 
