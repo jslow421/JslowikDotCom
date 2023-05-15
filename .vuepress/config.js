@@ -21,6 +21,10 @@ module.exports = {
           link: "https://linkedin.com/in/jslowik",
         },
         {
+          type: "twitter",
+          link: "https://twitter.com/jslow421",
+        },
+        {
           type: "mail",
           link: "mailto:jslowik@gmail.com",
         },
