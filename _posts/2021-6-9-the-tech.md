@@ -14,11 +14,13 @@ location: Wisconsin
 I thought an interesting first "real" post might be very briefly explaining the tech used on this site. It's pretty simple, but I find it interesting. Actually, a major motivator for making this site was to try this entire setup out and investigate its viability for potential future use. I'll keep it brief since I assume most of you are fairly familiar with each of these. I'll say at the top, for anyone interested in knowing if this setup could be useful for a simple personal or small business website, I dare say your answer appears to be yes if you've got a little technical skill (or at least the ability to stick with something). Also, as a disclaimer I'm still relatively new to a lot of these items in AWS so this might not be the most efficient/performant. Definitely feel free to reach out with any critiques!
 
 Topics covered:
+- [Intro](#intro)
 - [VuePress](#vuepress)
 - [GitHub](#github)
 - [CodeBuild](#codebuild)
-- [S3](#s3-simple-storage-service)
+- [S3 (Simple Storage Service)](#s3-simple-storage-service)
 - [CloudFront](#cloudfront)
+- [Conclusion](#conclusion)
 
 ## VuePress
 I'd seen static site generators around for a while, and "young" me said they were a waste of time. I've obviously changed my mind. When looking into them I found the typical ones like Gatsby and Jekyll, but I enjoy Vue so I landed on VuePress. Not much more to it than that. Being able to set up new pages (and posts for that matter) simply using markdown is pretty nice, though I'll admit I definitely slept on markdown for a while so I'm still learning. In case you were interested in a similar setup I'll provide my config.js here. Noteworthy item is that this is still the default blog theme. Among my many to-do items is modifying that a bit. Also, I would be interested to know if anyone has any recommendations on VuePress-y things I should look into.
