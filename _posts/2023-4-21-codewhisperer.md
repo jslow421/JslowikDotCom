@@ -1,5 +1,5 @@
 ---
-title: The Tech
+title: Amazon CodeWhisperer
 date: 2023-04-19
 tags: 
   - AWS
